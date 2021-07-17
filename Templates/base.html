@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>TRAGEDY</title>
+    </head>
+
+    <body>
+        <form action='predict' method='post'>
+<!--             <input type ='text' name='experience' placeholder="experience" required='required'/>
+            <input type ='number' name='number' placeholder="number" required='required'/>
+            <input type ='email' name='email' placeholder="email" required='required'/> -->
+
+            <input type ='number' name='experience' placeholder="experience" required='required'/>
+            <input type ='number' name='test_score' placeholder="test_score" required='required'/>
+            <input type ='number' name='interview_score' placeholder="interview_score" required='required'/>
+
+            <button type ='submit'>predict</button>
+
+        </form>
+
+        <!-- <h1>Welcome to my flask page</h1>
+        <h2>Welcome to my flask page</h2>
+
+        <p> this is the demo app for flas</p> -->
+
+        
+
+        {{prediction_text}}
+    </body>
+    <scrpit src= 'static/abc.js'></scrpit>
+</html>
